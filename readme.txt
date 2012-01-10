@@ -1,8 +1,8 @@
-=== Plugin Name ===
+=== Change Howdy ===
 Contributors: pankajanupam
 Tags: change howdy, admin bar
 Requires at least: 2.8
-Tested up to: 3.3
+Tested up to: 3.3.1
 
 Change Howdy to welcome
 
@@ -40,6 +40,9 @@ None
 None
 
 == Changelog ==
+
+=1.0=
+add tag
 
 = 0.9 =
 First Release
