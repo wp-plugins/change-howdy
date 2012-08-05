@@ -31,7 +31,7 @@ function change_howdy($translated, $text, $domain) {
     if (!is_admin() || 'default' != $domain)
         return $translated;
     if (false !== strpos($translated, 'Howdy'))
-        return str_replace('Howdy', 'Wellcome', $translated);
+        return str_replace('Howdy', 'Welcome', $translated);
     return $translated;
 }
 ?>
