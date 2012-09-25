@@ -2,7 +2,7 @@
 Contributors: pankajanupam
 Tags: change howdy, admin bar
 Requires at least: 2.8
-Tested up to: 3.3.1
+Tested up to: 3.4.2
 
 Change Howdy to welcome
 
@@ -40,6 +40,8 @@ None
 None
 
 == Changelog ==
+=1.1=
+add compatibility tag
 
 =1.0=
 add tag

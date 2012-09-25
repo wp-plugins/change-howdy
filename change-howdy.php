@@ -3,7 +3,7 @@
 Plugin Name: Change Howdy
 Plugin URI: http://pankajanupam.in/wordpress-plugins/subdomains/
 Description: Change howdy text to welcome
-Version: 1.0
+Version: 1.1
 Author: PANKAJ ANUPAM
 Author URI: http://pankajanupam.in
 
