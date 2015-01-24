@@ -2,12 +2,12 @@
 Contributors: pankajanupam
 Tags: change howdy, admin bar
 Requires at least: 2.8
-Tested up to: 3.4.2
+Tested up to: 4.1
 
-Change Howdy to welcome
+Change Howdy to welcome or any other text
 
 == Description ==
-Change Howdy to welcome
+Change Howdy to welcome or any other text
 
 == Installation ==
 
@@ -40,6 +40,12 @@ None
 None
 
 == Changelog ==
+=2.0=
+add compatibility tag
+
+=1.2=
+add compatibility tag
+
 =1.1=
 add compatibility tag
 

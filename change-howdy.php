@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Change Howdy
-Plugin URI: http://pankajanupam.in/wordpress-plugins/subdomains/
-Description: Change howdy text to welcome
-Version: 1.1
-Author: PANKAJ ANUPAM
-Author URI: http://pankajanupam.in
+Plugin URI: http://pankajanupam.com/wordpress-plugins/change-howdy/
+Description: Change howdy text to welcome or any other custom text
+Version: 2.0
+Author: BigBrother
+Author URI: http://pankajanupam.com
 
 * LICENSE
     Copyright 2011 PANKAJ ANUPAM  (email : mymail.anupam@gmail.com)
@@ -27,11 +27,14 @@ Author URI: http://pankajanupam.in
 ?>
 <?php
 add_filter('gettext', 'change_howdy', 10, 3);
+
 function change_howdy($translated, $text, $domain) {
     if (!is_admin() || 'default' != $domain)
         return $translated;
+
     if (false !== strpos($translated, 'Howdy'))
         return str_replace('Howdy', 'Welcome', $translated);
+    
     return $translated;
 }
 ?>
